@@ -24,6 +24,7 @@ fun main() {
     for (hobby in hobbies) {
         println("In free time,I would like to do ${hobby}")
     }
+
     //While
     var user: Boolean = true
     while (user) {
