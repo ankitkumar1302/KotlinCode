@@ -12,18 +12,17 @@ fun main() {
 //    println(myVariable)
 //    myVariable = false
 //    println(myVariable)
+
+    // Arithmetic operators
+
+    val x = 12
+    val u = 33
+    val result = x + u
+    println(result)
+
+
 }
 
-// Create a function to print the value of the variable
-//fun printVariable() {
-//    println(myVariable)
-//}
-
-// Create a function to print the value of the variable
-
-//fun printVariable() {
-//    println(myVariable)
-//}
 
 
 

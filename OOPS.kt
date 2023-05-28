@@ -4,8 +4,7 @@ fun main() {
 //println("Person Created")
 }
 
-class Person(firstName : String ,secondName :String) 
+class Person(firstName : String ,secondName :String)
 {
-
 
 }
