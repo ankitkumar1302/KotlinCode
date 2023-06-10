@@ -36,7 +36,7 @@ fun simpleExpression() {
 }
 fun hardExpression() {
      val bool = true
-    val x = 9
+    val x = 9y
     val y = 3
     val z = 9
     val hardExpression = !(x != z) && bool || z > (x + y) && (!bool || y < z)
@@ -46,6 +46,33 @@ fun hardExpression() {
                                 // TRUE
     println(hardExpression)
 }
-*/
+fun condition() {
+    println("Enter the value/name to check is palindrome:")
+    val name = readlnOrNull()
+    if (name!!.reversed().toLowerCase() == name) {
+        println("The $name is palindrome")
+    } else
+        println("The $name is not palindrome")
+}
 
+// 0-17 not an adult kid
+//18-65 you are adult
+//65> you are really, ancient
 
+fun check() {
+    println("Enter your age:")
+    val age = readlnOrNull()?.toInt()
+    if (age != null) {
+        if (age >= 0 && age < 18) {
+            println("You are not a adult")
+        } else if (age >= 18 && age <= 65) {
+            println("You are adult")
+        } else {
+            println("You are really really old")
+        }
+    }
+}
+ */
+fun array(){
+    val myArray = arrayOf("hello","ankit")
+}
