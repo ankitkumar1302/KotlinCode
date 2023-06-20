@@ -1,5 +1,4 @@
 import kotlin.math.pow
-import kotlin.time.times
 
 fun main() {
     power()
@@ -75,12 +74,12 @@ fun check() {
         }
     }
 }
- */
+
 fun array() {
-    val myArray = arrayOf("hello", "ankit","length")
-    val myArrayLength  = myArray.size
+    val myArray = arrayOf("hello", "ankit", "length")
+    val myArrayLength = myArray.size
     var i = 0
-    while (i<myArrayLength){
+    while (i < myArrayLength) {
         println(myArray[i])
         i++
     }
@@ -93,18 +92,19 @@ fun while_Function() {
         x--
     }
 }
+*/
+//fun number() {
+//
+//    println("Enter the number: ")
+//    var num = readlnOrNull()?.toInt()
+//    println("Lets count from $num to 0:")
+//    while (num!! >= 0) {
+//        println(num)
+//        num--
+//    }
+//}
 
-fun number(){
-
-    println("Enter the number: ")
-    var num = readlnOrNull()?.toInt()
-    println("Lets count from $num to 0:")
-    while (num!! >= 0){
-        println(num)
-        num--
-    }
-}
-fun power(){
+fun power() {
     println("Enter number 1: ")
     val f = readlnOrNull()?.toDouble()!!
     println("Enter number 2: ")
@@ -112,5 +112,11 @@ fun power(){
 
     val result = f.pow(s)
 
+
     println("$f to the power $s is $result")
+    println("$f to the power $s is $result")
+    println("$f to the power $s is $result")
+    println("$f to the power $s is $result")
+    println("$f to the power $s is $result")
+
 }
