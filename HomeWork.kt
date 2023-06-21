@@ -113,10 +113,6 @@ fun power() {
     val result = f.pow(s)
 
 
-
-
-
-
     println("$f to the power $s is $result")
     println("$f to the power $s is $result")
     println("$f to the power $s is $result")
