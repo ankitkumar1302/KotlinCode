@@ -1,9 +1,10 @@
-import kotlin.math.pow
-
 fun main() {
-    power()
+
+
 }
 
+
+//}
 /*
 fun name(){
     println("Enter your name: " )
@@ -102,21 +103,66 @@ fun while_Function() {
 //        println(num)
 //        num--
 //    }
+//fun power() {
+//    println("Enter number 1: ")
+//    val f = readlnOrNull()?.toDouble()!!
+//    println("Enter number 2: ")
+//    val s = readlnOrNull()?.toDouble()!!
+//
+//    val result = f.pow(s)
+//    println("$f to the power $s is $result")
 //}
 
-fun power() {
-    println("Enter number 1: ")
-    val f = readlnOrNull()?.toDouble()!!
-    println("Enter number 2: ")
-    val s = readlnOrNull()?.toDouble()!!
+//fun arrayHW() {
+//    val myArray = arrayOf(2, 5, 1)
+//    var sum = 0
+//    for (item in myArray) {
+//        sum += item
+//    }
+//    println("The sum of the array element is: $sum ")
+//}
+//
+//fun array2() {
+//    println("Enter the 5 number: ")
+//    var avg = 0.0
+//    for (i in 1..5) {
+//        val input = readlnOrNull()?.toInt()
+//        if (input != null) {
+//            avg += input / 5
+//        }
+//    }
+//    println("The average value is $avg")
+//}
 
-    val result = f.pow(s)
+// Enter the 5 number in a list and then reverse it.
+
+//fun list1() {
+//    println("Enter 5 numbers :")
+//    val numbers = mutableListOf<Int>()
+//    for (i in 1..5) {
+//        val number = readlnOrNull()!!.toInt()
+//        numbers.add(number)
+//    }
+//    numbers.reversed()
+//    println("The reversed number is $numbers")
+//}
+
+// Create a List/function that calculate the user defined fibonachi series
+
+//fun fibonachi() {
+//    val list = mutableListOf(0, 1)
+//    println("Enter the number n>1: ")
+//    val n = readlnOrNull()?.toInt()
+//    if (n != null) {
+//        listOf(0, 1, 1, 2, 3, 5)
+//        for (i in 2..n - 1) {
+//            list.add(list[i - 2] + list[i - 1])
+//        }
+//    }
+//}
+
+// Create a function that take user input and give the sum with the previous numbers like :-
+// User input 5
+// 1+2+3+4+5 = 15
 
 
-    println("$f to the power $s is $result")
-    println("$f to the power $s is $result")
-    println("$f to the power $s is $result")
-    println("$f to the power $s is $result")
-    println("$f to the power $s is $result")
-
-}
