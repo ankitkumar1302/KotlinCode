@@ -17,6 +17,8 @@ fun main() {
 
 
     // Mutable list with explicit type declaration
+
+
     val shapes: MutableList<String> = mutableListOf("Triangle", "Square", "Circle")
 //    println(shapes)
     /*
