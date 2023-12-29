@@ -8,11 +8,14 @@ fun main() {
     * Maps are useful if you want to look up a value without using a numbered index, like in a list.
     * */
 
-    val readOnlyMap = mapOf("orange" to 52, "apple" to 22, "banana" to 69)
-    println(readOnlyMap)
+    val readOnlyMap = mapOf(52 to "orange", "apple" to 22, "banana" to 69)
+//    println(readOnlyMap)
+
+    val n = 52
+    println("The value is ${readOnlyMap.get(n)}")
 
     val juice: MutableMap<String, Int> = mutableMapOf("orange" to 22, "kiwi" to 44, "grapes" to 88)
-    println(juice)
+//    println(juice)
 //    val juiceLocked: Map<String, Int> = juice
 
 //    println("In Map the value of apple is ${readOnlyMap["apple"]}")
@@ -36,8 +39,10 @@ fun main() {
 //    println(readOnlyMap.keys)
 //    println(readOnlyMap.values)
 
-    // check the key or value is in the map or return thr true/false
+    // check the key or value is in the map or return the true/false
 //    println("orange" in readOnlyMap) // true
+
+
 }
 
 

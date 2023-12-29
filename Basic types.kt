@@ -1,7 +1,7 @@
 fun main() {
 
     val readonlyShapes = listOf("Triangle", "Square", "Circle")
-    println(readonlyShapes)
+//    println(readonlyShapes)
     //println(readonlyShapes)
     //println("In the 0th Index the name of the shape is ${readonlyShapes[0]}")
 
@@ -18,6 +18,8 @@ fun main() {
 
     // Mutable list with explicit type declaration
 
+//    val greenNumber = listOf(1,4,23)
+//    println("The total numbers are in the greenNumber is ${greenNumber.count()}")
 
     val shapes: MutableList<String> = mutableListOf("Triangle", "Square", "Circle")
 //    println(shapes)
