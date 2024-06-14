@@ -1,11 +1,3 @@
- <h1 align="center">
-<br>
-  <img src="screenshots/kotlin.png" width="300" alt="Kotlin Pokedex">
-<br>
-<br>
-Pokedex app built with Kotlin
-</h1>
- 
  # Kotlin Basics
 
 This project is an example of how to write Kotlin code for Android apps. It includes examples and exercises from the [Kotlin Playlist for Newbies to Pro](https://www.youtube.com/playlist?list=PLQkwcJG4YTCRSQikwhtoApYs9ij_Hc5Z9) course on YouTube.
