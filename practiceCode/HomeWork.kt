@@ -1,3 +1,5 @@
+package practiceCode
+
 fun main() {
     val list = listOf(3, 2, 1, 5, 24, 6)
     println("The list look like the following: $list")

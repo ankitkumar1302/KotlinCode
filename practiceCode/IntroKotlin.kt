@@ -1,3 +1,5 @@
+package practiceCode
+
 fun main() {
     // Variables
     var a = 5;

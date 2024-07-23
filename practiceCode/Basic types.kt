@@ -1,3 +1,5 @@
+package practiceCode
+
 fun main() {
 
     val readonlyShapes = listOf("Triangle", "Square", "Circle")

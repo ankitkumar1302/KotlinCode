@@ -1,3 +1,5 @@
+package practiceCode
+
 fun main() {
     println("Please enter a number :")
     val input = readlnOrNull()?.toInt()

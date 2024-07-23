@@ -1,3 +1,5 @@
+package practiceCode
+
 fun main() {
 
 //Whereas lists are ordered and allow duplicate items, sets are unordered and only store unique items.
